@@ -69,8 +69,8 @@ public class Testproyectofinal {
     assertThat(("Successfully updated!"),is(textoEjecucion));
   }
   
-  @Test
-   /*public void testCeliminarusuario() throws Exception {
+  /*@Test
+   public void testCeliminarusuario() throws Exception {
    driver.get("https://mern-crud.herokuapp.com/");
    driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td[5]/button[2]")).click();
    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Delete User'])[1]/following::button[1]")).click();
