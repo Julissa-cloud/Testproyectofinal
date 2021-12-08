@@ -39,7 +39,7 @@ public class Testproyectofinal {
     driver.findElement(By.xpath("//div[@id='root']/div/div[2]/button")).click();
     driver.findElement(By.name("name")).click();
     driver.findElement(By.name("name")).clear();
-    driver.findElement(By.name("name")).sendKeys("Alan p");
+    driver.findElement(By.name("name")).sendKeys("Alan");
     driver.findElement(By.name("email")).click();
     driver.findElement(By.name("email")).clear();
     driver.findElement(By.name("email")).sendKeys("alanp@gmail.com");
