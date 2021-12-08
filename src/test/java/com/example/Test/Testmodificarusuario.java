@@ -29,7 +29,7 @@ public class Testmodificarusuario {
   }
 
   @Test
-  public void testagregarusuario() throws Exception {
+  public void testmodificarusuario() throws Exception {
     driver.get("http://localhost:3000/");
     driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td[5]/button")).click();
     driver.findElement(By.name("name")).click();
