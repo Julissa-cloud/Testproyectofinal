@@ -70,7 +70,7 @@ public class Testproyectofinal {
   }
   
   @Test
-   public void testCeliminarusuario() throws Exception {
+   /*public void testCeliminarusuario() throws Exception {
    driver.get("https://mern-crud.herokuapp.com/");
    driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td[5]/button[2]")).click();
    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Delete User'])[1]/following::button[1]")).click();
@@ -90,7 +90,7 @@ public class Testproyectofinal {
         System.out.print("usuario eliminado");
     }
     assertTrue(eliminado);
-  }
+  }*/
 
   
   
