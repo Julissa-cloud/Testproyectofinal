@@ -80,7 +80,6 @@ public class Testproyectofinal {
    WebElement email = reg.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td[2]"));
    
    String emailEliminado = email.getText();
-   System.out.print("Email a borar" + emailEliminado);
    
    WebElement elemBtn = driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td[5]/button[2]"));
    elemBtn.click();
@@ -95,7 +94,6 @@ public class Testproyectofinal {
     if(!table.getText().contains(emailEliminado)){
 
         eliminado = true;
-        System.out.print("usuario eliminado");
     }
     assertTrue(eliminado);
   }
